@@ -22,7 +22,7 @@ async function setupNodeEvents(on, config) {
 
 
 module.exports = defineConfig({
-  projectId: '1ipm4w',
+  projectId: "js693c",
   chromeWebSecurity: false,
   viewportWidth: 1500,
   viewportHeight: 700,
