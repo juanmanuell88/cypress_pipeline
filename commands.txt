@@ -1,0 +1,4 @@
+npx cypress run
+npx cypress run --browser chrome
+node_modules\.bin\cypress run
+npx cypress run --spec "cypress\e2e\Seccion_2\reference_windows.cy.js" 
