@@ -4,7 +4,7 @@ describe("Ejemplo de Type pageUp, pageDown  ", () =>{
 
     it.only("Type primero ", () =>{
         cy.visit("https://demoqa.com/text-box")
-        cy.title().should('eq','ToolsQA') 
+       cy.title().should('eq','DEMOQA') 
         cy.wait(1000)
 
         cy.get("#userName").type('{pageup}')
@@ -14,7 +14,7 @@ describe("Ejemplo de Type pageUp, pageDown  ", () =>{
 
     it("Type pageDown ", () =>{
         cy.visit("https://demoqa.com/text-box")
-        cy.title().should('eq','ToolsQA') 
+       cy.title().should('eq','DEMOQA') 
         cy.wait(1000)
 
         cy.get("#userName").type('{pagedown}')
@@ -23,7 +23,7 @@ describe("Ejemplo de Type pageUp, pageDown  ", () =>{
 
     it("Type pageDown ", () =>{
         cy.visit("https://demoqa.com/text-box")
-        cy.title().should('eq','ToolsQA') 
+       cy.title().should('eq','DEMOQA') 
         cy.wait(1000)
 
         cy.get("#userName").type('{pagedown}')
@@ -32,7 +32,7 @@ describe("Ejemplo de Type pageUp, pageDown  ", () =>{
 
     it("Type pageDown ", () =>{
         cy.visit("https://demoqa.com/text-box")
-        cy.title().should('eq','ToolsQA') 
+       cy.title().should('eq','DEMOQA') 
         cy.wait(1000)
 
         cy.get("#userName").type('{pagedown}')
@@ -41,7 +41,7 @@ describe("Ejemplo de Type pageUp, pageDown  ", () =>{
 
     it("Type pageDown ", () =>{
         cy.visit("https://demoqa.com/text-box")
-        cy.title().should('eq','ToolsQA') 
+       cy.title().should('eq','DEMOQA') 
         cy.wait(1000)
 
         cy.get("#userName").type('{pagedown}')
@@ -50,7 +50,7 @@ describe("Ejemplo de Type pageUp, pageDown  ", () =>{
 
     it("Type pageDown ", () =>{
         cy.visit("https://demoqa.com/text-box")
-        cy.title().should('eq','ToolsQA') 
+       cy.title().should('eq','DEMOQA') 
         cy.wait(1000)
 
         cy.get("#userName").type('{pagedown}')
@@ -59,7 +59,7 @@ describe("Ejemplo de Type pageUp, pageDown  ", () =>{
 
     it.only("Type ultimo ", () =>{
         cy.visit("https://demoqa.com/text-box")
-        cy.title().should('eq','ToolsQA') 
+       cy.title().should('eq','DEMOQA') 
         cy.wait(1000)
 
         cy.get("#userName").type('{pagedown}')

@@ -4,7 +4,7 @@ describe("Introducción a los assert  ", () =>{
 
     it("Demo de los Asserts ", () =>{
         cy.visit("https://demoqa.com/automation-practice-form") 
-        cy.title().should('eq','ToolsQA')
+       cy.title().should('eq','DEMOQA')
         cy.wait(1000)
 
         cy.get("#firstName").should("be.visible").c

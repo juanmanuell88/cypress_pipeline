@@ -6,7 +6,7 @@ class ProyectoUno_Po{
         //Cypress.config("defaultCommandTimeout",15000)      
         before(()=>{    
           cy.visit('https://demoqa.com/automation-practice-form'),
-          cy.title().should('eq','ToolsQA')
+         cy.title().should('eq','DEMOQA')
           cy.wait(tiempo)
         })
     }

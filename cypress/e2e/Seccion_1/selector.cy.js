@@ -6,7 +6,7 @@ describe("Tipos de Selectores  ", () =>{
 
     it("Selector por id ", () =>{
         cy.visit("https://demoqa.com/text-box")
-        cy.title().should('eq','ToolsQA') 
+       cy.title().should('eq','DEMOQA') 
         cy.wait(1000)
 
         cy.get("#userName").should("be.visible", {timeout:5000}).type("Carlos")
@@ -16,7 +16,7 @@ describe("Tipos de Selectores  ", () =>{
 
     it("Selector por Atributo ", () =>{
         cy.visit("https://demoqa.com/text-box")
-        cy.title().should('eq','ToolsQA') 
+       cy.title().should('eq','DEMOQA') 
         cy.wait(1000)
 
        cy.get("[placeholder='Full Name']").should("be.visible").type("Juan Perez Chavez")
@@ -25,7 +25,7 @@ describe("Tipos de Selectores  ", () =>{
 
     it("Selector por Xpath ", () =>{
         cy.visit("https://demoqa.com/text-box")
-        cy.title().should('eq','ToolsQA') 
+       cy.title().should('eq','DEMOQA') 
         cy.wait(1000)
 
         cy.xpath("//*[@id='userName']").should("be.visible").type("Juan Perez")
@@ -38,7 +38,7 @@ describe("Tipos de Selectores  ", () =>{
 
     it("Selector por contains ", () =>{
         cy.visit("https://demoqa.com/automation-practice-form")
-        cy.title().should('eq','ToolsQA') 
+       cy.title().should('eq','DEMOQA') 
         cy.wait(1000)
 
        cy.get(".custom-control-label").contains("Female").click()
@@ -49,7 +49,7 @@ describe("Tipos de Selectores  ", () =>{
 
     it("Selector por copy_selector ", () =>{
         cy.visit("https://demoqa.com/automation-practice-form")
-        cy.title().should('eq','ToolsQA') 
+       cy.title().should('eq','DEMOQA') 
         cy.wait(1000)
 
         cy.get("#userNumber").should("be.visible").type("465654654")
@@ -59,7 +59,7 @@ describe("Tipos de Selectores  ", () =>{
 
     it.only("Selector por within ", () =>{
         cy.visit("https://demoqa.com/automation-practice-form")
-        cy.title().should('eq','ToolsQA') 
+       cy.title().should('eq','DEMOQA') 
         cy.wait(1000)
 
 /*      Pareciera mal planteado el ejercicio y la funcionalidad de within .. la parte no comentada
