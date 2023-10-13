@@ -1,1 +1,5 @@
-npx cypress run --record --key 13d29b47-2277-4d28-b9f2-8592c8aff5fd
+Iniciar jenkins 
+java -jar jenkins.war
+
+Se corre primero --> curl.exe -sO http://localhost:8080/jnlpJars/agent.jar
+Iniciar Agent -> java -jar agent.jar -jnlpUrl http://localhost:8080/computer/Agent1/jenkins-agent.jnlp -secret 2a7b8013740f33495c54b8f6af67684449ef3ef6bde3f8da64976c00060d53a6 -workDir "/home/"
