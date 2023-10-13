@@ -14,7 +14,7 @@ pipeline {
                     steps {
                         git url: 'https://github.com/juanmanuell88/cypress_pipeline.git'
                         bat 'npm install'
-                        bat 'npm update'                       
+                        //bat 'npm update'                       
                         bat 'npx cypress run cypress run --record --key 13d29b47-2277-4d28-b9f2-8592c8aff5fd  --parallel'
                     
                     }
@@ -27,7 +27,7 @@ pipeline {
                     steps {
                         git url: 'https://github.com/juanmanuell88/cypress_pipeline.git'
                         bat 'npm install'
-                        bat 'npm update'                       
+                        //bat 'npm update'                       
                         bat 'npx cypress run cypress run --record --key 13d29b47-2277-4d28-b9f2-8592c8aff5fd  --parallel'
                     
                     }
@@ -40,7 +40,7 @@ pipeline {
                     steps {
                         git url: 'https://github.com/juanmanuell88/cypress_pipeline.git'
                         bat 'npm install'
-                        bat 'npm update'                       
+                        //bat 'npm update'                       
                         bat 'npx cypress run cypress run --record --key 13d29b47-2277-4d28-b9f2-8592c8aff5fd  --parallel'
                     
                     }
